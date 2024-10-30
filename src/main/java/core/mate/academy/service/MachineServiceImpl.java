@@ -1,13 +1,13 @@
 package core.mate.academy.service;
 
-import java.util.Collections;
-import java.util.List;
 import core.mate.academy.model.Bulldozer;
 import core.mate.academy.model.Excavator;
 import core.mate.academy.model.Machine;
 import core.mate.academy.model.Truck;
+import java.util.Collections;
+import java.util.List;
 
-public class MachineServiceImpl<T extends Machine> implements MachineService<T>  {
+public class MachineServiceImpl<T extends Machine> implements MachineService<T> {
 
     @Override
     public List<? extends T> getAll(Class<? extends T> type) {
